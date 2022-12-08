@@ -1,0 +1,450 @@
+/* generales */ 
+
+    body {
+        /*color:#898D8D;*/
+        color:#676868;
+    }
+
+    /* color de fondo */
+    .content-wrapper {
+        background-color: transparent !important;
+        /*antes estaba gris */
+    }
+
+    /* Estilos para el titulo principal de mesa*/
+.mobile{
+    display: none;
+}
+    .img_baner{
+        display: flex;
+        background-image: url("../img/portada_escritorio.png");
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .hijo{
+        color: #fff;
+        width: 25%;
+        align-self: center;
+        margin-left: 20%;
+        
+    }
+
+    /* Termina estilos de titulo*/
+
+/* Imagen de bienvenida pagina principal redirección a mesas */
+.link-inicio{
+    text-decoration: none;
+    color: #f26e50;
+}
+.image-titulo{
+   
+    margin-bottom: 7em;
+}
+.boton-naranja
+{
+    background-color: tomato;
+}
+
+.ligas-mesas{
+    margin-bottom: 8em;
+}
+/* header */
+
+    /* logos de encabezado en application/helpers/site_config_helper.php */
+
+    .encabezado {
+        background-color:#9F2241;
+    }
+    .logos-encabezado {
+        max-width: 590px;
+        margin:1.2rem 1rem;
+    }
+    .main-header {
+        background-color: #eee;
+    }
+    .brand-text {
+        color: #f26e50;
+        font-weight: bold;
+    }
+        .brand-text:hover {
+            color:#474747;
+        }
+
+/* bradcrumb en application/controllers/inicio.php  */
+    .breadcrumb-item {
+        font-size: .9em;
+        color: #f26e50 !important;
+        font-weight: bold;
+    }
+    .breadcrumb-item:hover {
+        color: #474747 !important;
+        font-weight: bold;
+    }
+
+ /* titulo en application/views/templates/vertical/header_content_view.php */
+    .content-header h1 {
+        font-size: 1.3em !important;
+        text-align: center;
+        font-weight: 500;
+        padding:  1rem 0;
+        color: #212529;
+    }
+    .titulo1 {
+        font-size: 1.6em !important;
+        text-align: center;
+        padding:  1rem 0;
+    }
+
+    .titulo {
+        border-bottom:solid 1px #676868;
+        margin: 1rem  0 2rem !important;
+        padding:1rem 0 !important;
+    }
+    .icono-mesa-ayuda {
+        max-width: 80px;
+    }
+    @media only screen and (max-width: 576px) {
+        .icono-mesa-ayuda {
+            float: none !important;
+            margin: 0 auto;
+            display: block;
+        }
+      }
+    
+
+
+/* formulario en application/views/inicio/index.php */
+    .formulario {
+        margin: 1rem 1rem 2rem;
+    }
+
+    .icono {
+        margin-right: 1rem;
+        font-size: 1em;
+    }
+    .apellido1, .apellido2 {
+        visibility: hidden;
+    }
+    .asterisco {
+        color:#DC3545;
+    }
+    
+    
+    /* boton de enviar */
+    .btn-naranja {
+        background-color:#f26e50 !important;
+        border: solid 2px #f26e50 !important;
+        color: #fff !important;
+        min-width: 8rem;
+        font-weight: bold !important;
+    }
+    .alinear_faqs{
+        text-align: end;
+    }
+    .btn-naranja:hover {
+        border: solid 2px #f26e50 !important;
+        background-color: transparent !important;
+        color:#f26e50 !important;
+        font-weight: bold !important;
+    }
+
+    .btn-naranja-contorno {
+        border: solid 2px #f26e50 !important;
+        background-color: transparent !important;
+        color:#f26e50 !important;
+        font-weight: bold !important;
+    }
+    .btn-naranja-contorno:hover {
+        background-color:#f26e50 !important;
+        border: solid 2px #f26e50 !important;
+        color: #fff !important;
+        font-weight: bold !important;
+    }
+
+    /* Color de grupos de faqs hola */
+
+    .btn-faqs {
+        background-color:#d4edda !important;
+        border: solid 2px #d4edda !important;
+        color: #fff !important;
+        min-width: 8rem;
+        font-weight: bold !important;
+    }
+    .btn-faqs:hover {
+        border: solid 2px #d4edda !important;
+        background-color: transparent !important;
+        color:#d4edda !important;
+        font-weight: bold !important;
+    }
+
+    .btn-faqs-contorno {
+        border: solid 2px #f2f2f2 !important;
+        background-color: transparent !important;
+        color:#000 !important;
+        font-weight: bold !important;
+    }
+    .btn-faqs-contorno:hover {
+        background-color:#f2f2f2 !important;
+        border: solid 2px #f2f2f2 !important;
+        color: #000 !important;
+        font-weight: bold !important;
+    }
+
+.alinear1{
+    text-align: left !important;
+}
+
+    /* seguimiento de dudas */
+    .seguimiento .modal-body {
+        background-color: #ebedf0;
+    }
+
+/* mensaje de agradecimiento */
+    .agradecimiento h2, .agradecimiento p {
+        color: #fff;
+        margin:2rem 0 3rem !important;
+    }
+    .agradecimiento {
+        background-color:#f26e50 !important;
+        border-radius:1rem !important;
+        -webkit-box-shadow: 13px 13px 1px 3px rgba(70,89,115,0.2);
+        -moz-box-shadow: 13px 13px 1px 3px rgba(70,89,115,0.2);
+        box-shadow: 13px 13px 1px 3px rgba(70,89,115,0.2);
+        margin-bottom: 5rem;
+    }
+
+/* preguntas frecuentes application/views/inicio/index_view.php */
+    #faqs h1 button {
+        color: #f26e50;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    #faqs h1 button:hover {
+        background-color:#f26e50;
+        color: #fff;
+    }
+
+    #faqs .btn-link {
+        background-color: #465973;
+        font-size: 2em;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    #faqs section div {
+     /*   background-color: #f2f2f2;*/
+    }
+    #faqs section div p {
+        margin-bottom: 0;
+    }
+    #faqs .ocultar {
+        color: #f26e50;
+        text-decoration:underline;
+        font-weight: bold;
+    }
+    #faqs .ocultar:hover {
+        color:#454545;
+    }
+
+/* Estimado usuario application/modules/admin/views/users_view.php */
+    .usuario {
+        background-color: #d0d5dc;
+    }
+    .cuadro-azul {
+        background-color: #465973 !important;
+        color:#fff !important;
+    }
+
+/* seccion de tablas  application/modules/admin/views/admin_view.php y assets/tablas_admmin/js/main */
+    .topnav {
+        background-color: #f2f2f2 !important;
+        /*margin-bottom: 4rem;*/
+    }
+    .buttons-html5, .buttons-print {
+        background-color: transparent !important;
+        border: none !important;
+    }
+    .buttons-html5 span i, .buttons-print span i {
+        font-size: 2em;
+    }
+    button .fa-file-excel {
+        color:#00b140 !important;
+    }
+    button .fa-file-pdf {
+        color:#ff0000;
+    }
+    button .fa-print {
+        color:#454545;
+    }
+
+      @media (max-width: 767px) {
+        #example_wrapper .btn-group {
+            width: 50% !important;
+        }
+        #example_wrapper #example_filter {
+            padding-top: 4rem;
+            padding-bottom: 1rem;
+            width: 100%;
+        }
+        #example_wrapper #example_filter label {
+            width: 100%;
+        }
+        #example_wrapper #example_filter input {
+            width: 80%;
+        }
+      }
+
+
+    /* tabla */
+    table thead th {
+        background-color: #465973 !important;
+    }
+    #example_info {
+        margin-bottom: 1rem;
+    }
+    div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+        margin: 4rem 0 !important;
+        justify-content: center !important;
+    }
+    .pagination .page-link, .pagination .page-link:hover {
+        color:#f26e50;
+    }
+    .pagination .page-item.active .page-link {
+        background-color: #f26e50 !important;
+        border-color: #f26e50 !important;
+    }
+    .pagination .page-link {
+        padding: 1rem 1.3rem;
+    }
+
+    /* tickets  application/modules/admin/views/ticket_view.php */
+    #example td:nth-child(5) form input {
+        color:#465973;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #example td:nth-child(6) form input {
+       background-color: #465973;
+        width: 90%;
+    }
+
+    /* Datos de usuario application/modules/admin/views/responder_view.php */
+    .fondo-usuarios, .fondo-azul {
+        background-color: #d0d5dc;
+    }
+    .icono-datos-usuario {
+        font-size: 1.5em;
+    }
+    .fondo-usuarios span + div {
+        color:#212529;
+    }
+    html {
+        min-height: 100%;
+        position: relative;
+    }
+    .wrapper {
+        position: static !important;
+        margin-bottom: 6rem;
+    }
+    html {
+        background-color: #d0d5dc;
+    }
+
+/* footer en application/view/templates/vertical/footer_view.php*/
+    .main-footer {
+        background-color:#465973;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+/* login application/views/templates/acceso/logo_view.php, application/views/templates/acceso/card_access_view.php */
+    #vista_login {
+        background-color:#ebedf0 !important;
+        background-image: url(../img/fondo_irc.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    #vista_login body {
+        background-color: transparent !important;
+    }
+    .login-logo a {
+        font-size: .7em !important;
+        color:#2b2b2b !important;
+    }
+    .login-box {
+        margin-bottom: 10rem;
+    }
+    .login-box .card {
+        background-color: #465973;
+        padding: 2rem !important;
+    }
+    .login-card-body {
+        background-color: transparent !important;
+    }
+    #vista_login .input-group-text {
+        color:#454545 !important;
+    }
+    .login-box-msg {
+        color:#fff;
+    }
+    .login-box .input-group-append, .login-box .input-group-text {
+        background-color: #fff;
+    }
+    @media (max-width: 576px) {
+        #vista_login .wrapper {
+            margin-bottom: 2rem !important;
+        }
+    }
+
+    /*Media query para la imagen de portada*/
+
+    @media (max-width: 800px){
+        .hijo{
+            display: none;
+        }
+        .mobile{
+            display: inline-block;
+        }
+        .img_baner{
+            background-image: url("../img/portada_movil.png");
+        }
+    }
+
+    /*Quitar columna de respuestas y color al boton*/
+
+    .ver_ticket{
+        background-color: #465973 !important;
+        color: white !important;
+    }
+
+    /*Estilos de ventana de mantenimiento
+    */
+.verde_mantenimiento{
+    color: #009288;
+    
+}
+
+.verde_mantenimiento_boton{
+    background-color:  #009288;
+    
+    
+}
+
+.blanco_footer_modal{
+    background-color: white !important;
+}
+
+/**Estilos de estadisticas*/
+.naranja{
+    color:#f26e50 !important;
+}
+.verde_p{
+    color: #009288 !important;
+}
